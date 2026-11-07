@@ -64,8 +64,15 @@ Selecting a region or category dynamically filters the KPIs and visualizations o
 A measure was created to calculate Average Order Value (AOV):
 
 ```DAX
+
 Average Order Value =
 DIVIDE(
     SUM('Sales_Analysis_Project_50000_Rows'[Total Sales]),
     DISTINCTCOUNT('Sales_Analysis_Project_50000_Rows'[Order ID])
 )
+
+```
+
+## Dashboard Preview
+
+![Power BI Sales Dashboard](PowerBI_Sales_Dashboard.png)
